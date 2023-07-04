@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mosha-portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="util.css">
+  <script src="https://kit.fontawesome.com/a5005f3c98.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <nav>
+      <img class="logo-img" src="images/Mosha-logo.jfif" alt="">
+      <!-- <img class="img2" src="images/img-dev.avif" alt="front-img"> -->
+      <ul id="sidemenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">contact</a></li>
+        <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Coder and Developer</p>
+      <h1>Hi, I'm <span>Mosha </span>From Kolkata</h1>
+    </div>
+  </div>
+
+  <!-- --------------About-------------- -->
+  <div class="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="about-col-1">
+          <img class="img2" src="images/img-cartoon-me.jfif">
+        </div>
+        <div class="about-col-2">
+          <h1>About me</h1>
+          <br>
+          <p>Hey I am Mosha a web designer who is deeply passionate about coding.
+            With an extensive background in web development and a strong love for
+            problem-solving, Mosha brings a unique blend of creativity and technical
+            expertise to every project. Their keen eye for aesthetics allows them to create
+            visually stunning websites that not only captivate users but also provide a
+            seamless and intuitive browsing experience. </p>
+          <br>
+          <p>Driven by a love for coding, Mosha approaches web design challenges
+            with a problem-solving mindset. They thrive on tackling complex issues
+            and finding elegant solutions that enhance the functionality and usability
+            of websites. Mosha's deep understanding of programming languages and
+            their willingness to explore new technologies enable them to push the
+            boundaries of what is possible in web design. </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+            <p class="tab-links " onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>DSA</li>
+              <li>Web Developer</li>
+              <li>Compititive programmer</li>
+            </ul>
+          </div>
+          <br>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>intern at Oasis Infobyte</li>
+            </ul>
+          </div>
+          <br>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>Madhiyamik from Salimiah High School <span>(2016-17)</span></li>
+              <li>Higher secondary from Titagarh A.G.M High School <span>(2018-19)</span> </li>
+              <li>Currently at B.Tech in 3rd year from Kalyani Government Engineering College<span>(2020-24)</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------Services-------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-computer"></i>
+          <h2>Web Design</h2>
+          <p>
+            Mosha's dedication to client satisfaction and their
+            unwavering commitment to delivering exceptional
+            results make them a reliable and sought-after web designer.
+          </p>
+          <br>
+          <p>
+            Web Designing involves a combination of programming, design,
+            and problem-solving skills to build functional
+            and visually appealing online experiences.
+          </p>
+
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h2>Data structure and algorithms</h2>
+          <p>Data structures and algorithms are fundamental concepts in
+            computer science and play a crucial role in
+            solving complex problems efficiently. </p>
+          <br>
+          <p>
+            Data structures provide a way to organize
+            and manage data in a structured format. They define
+            the relationship between data elements.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-regular fa-pen-to-square"></i>
+          <h2>Compititive programming</h2>
+          <p> Compititive programming combines problem-solving skills, algorithmic thinking,
+            and efficient coding to tackle a wide range of computational challenges.</p>
+          <br>
+          <p>
+            One of the key aspects of competitive programming is the emphasis
+            on efficient algorithms and data structures. Participants are
+            required to develop optimized solutions that execute within
+            the given time and memory constraints.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- -------------portfolio--------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/snake-game.jfif" alt="">
+          <div class="layer">
+            <h3>Snake Game</h3>
+            <p>Simple snake game that everyone want to play</p>
+            <a href="#"><i class="fa-solid fa-heart-circle-bolt"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/gym-landing-page.png">
+          <div class="layer">
+            <h3>Gym landing page</h3>
+            <p>Gym and workout is necessary for everyone who want to fit mentally as well as mentally</p>
+            <a href="#"><i class="fa-solid fa-heart-circle-bolt"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/drum-kit.png">
+          <div class="layer">
+            <h3>Drum kit</h3>
+            <p>A full pack of drum kit that you will enjoy anytime</p>
+            <a href="#"><i class="fa-solid fa-heart-circle-bolt"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#" class="btn">Learn more...</a>
+
+    </div>
+  </div>
+
+  <!-- ---------------contact--------------- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>Mosha003@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>7890...</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" value="Your Name  :" required>
+            <input type="text" name="email" value="Your email  :" required>
+            <textarea name="Message" rows="6" placeholder="Your Message :"></textarea>
+            <button type="submit" class="btn btn3">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright <i class="fa-regular fa-copyright"></i> Mosha </p>
+    </div>
+  </div>
+
+  <!-- ------------javascript part------------- -->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementsById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementsById("sidemenu");
+
+    function openemenu() {
+      sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>
